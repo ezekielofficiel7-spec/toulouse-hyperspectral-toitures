@@ -1,12 +1,12 @@
 # Types de toitures par imagerie hyperspectrale (Toulouse)
 
 > Identification des matériaux de toiture (béton, tuile, ardoise) à partir d'une image hyperspectrale aéroportée.
-> *Detection of roofing materials from airborne hyperspectral imagery: PCA → MNF → masking → K-means.*
+> *Detection of roofing materials from airborne hyperspectral imagery: PCA -> MNF -> masking -> K-means.*
 
 ![Classification des matériaux de toiture](figures/04_classification_materiaux_toiture.png)
 
-**Master 2 Géomatique et modélisation spatiale (GMS)**, Aix-Marseille Université · 2026-2027
-Sous la direction de Sébastien Gadal · **Travail de groupe** : A. Bakhoum, F. Omar, A. E. Soukou · Rapport en anglais
+**Master 2 Géomatique et modélisation spatiale (GMS)**, Aix-Marseille Université | 2026-2027
+Sous la direction de Sébastien Gadal | **Travail de groupe** : A. Bakhoum, F. Omar, A. E. Soukou | Rapport en anglais
 
 ---
 
@@ -27,7 +27,7 @@ Peut-on distinguer automatiquement les matériaux de toiture d'un quartier urbai
 ## Méthode
 
 ```
-Image hyperspectrale → Sélection de bandes → ACP mode T (comp. 1) → MNF (comp. 2) → Masque végétation / eau / voirie → K-means
+Image hyperspectrale -> Sélection de bandes -> ACP mode T (comp. 1) -> MNF (comp. 2) -> Masque végétation / eau / voirie -> K-means
 ```
 
 | Étape | Rôle |
@@ -56,15 +56,13 @@ Une carte des toitures en 5 classes : **ardoise, béton, béton + ardoise (signa
 
 ## Outils
 
-`ENVI` · ACP · MNF · K-means
+`ENVI` | ACP | MNF | K-means
 
 ## Contenu du dépôt
 
-```
-├── figures/   composantes ACP/MNF, extraction du bâti, carte finale
-└── rapport/   rapport complet (PDF, anglais)
-```
+- `figures/` : composantes ACP/MNF, extraction du bâti, carte finale
+- `rapport/` : rapport complet (PDF, anglais)
 
 ---
 
-**Auteur :** Ezechiel Agbewanou SOUKOU, géomaticien-urbaniste · [LinkedIn](https://www.linkedin.com/in/ezechiel-soukou) · [Autres projets](https://github.com/ezekielofficiel7-spec)
+**Auteur :** Ezechiel Agbewanou SOUKOU, géomaticien-urbaniste | [LinkedIn](https://www.linkedin.com/in/ezechiel-soukou) | [Autres projets](https://github.com/ezekielofficiel7-spec)
